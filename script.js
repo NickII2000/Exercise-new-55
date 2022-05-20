@@ -7,7 +7,7 @@ boxesQuery.forEach(box => {
 });
 
 console.log(boxesQuery[0].closest('.wrapper'));
-console.log(boxesQuery[0].closest('.wra'));
+console.log(boxesQuery[0].closest('.wrap'));
 
 // boxesQuery[0].remove();
 // boxesGet[0].remove();
