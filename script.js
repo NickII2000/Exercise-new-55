@@ -3,7 +3,9 @@ const boxesQuery = document.querySelectorAll('.box');
 const boxesGet = document.getElementsByClassName('box');
 
 boxesQuery.forEach(box => {
-    if (box.matches('.this')) console.log(box);
+    if (box.matches('.this')) {
+        console.log(box);
+    }
 });
 
 console.log(boxesQuery[0].closest('.wrapper'));
